@@ -1,6 +1,6 @@
 "use strict";
 
-const BASE_URL = "https://hask-or-snooze-v3.herokuapp.com";
+const BASE_URL = "https://hack-or-snooze-v3.herokuapp.com";
 
 /******************************************************************************
  * Story: a single story in the system
@@ -227,7 +227,7 @@ class User {
      const action = state !== "addfavore"? "DELETE":'POST';
       try {
         await axios({
-          url: `${BASE_URL}/users/${this.username}/favorites/${story.storyId}`,
+          url: `${BASE_URL}/users/${this.username}/favorites/${story.storyId}/sss`,
           method: action,
           data:{token: this.loginToken},
         });
