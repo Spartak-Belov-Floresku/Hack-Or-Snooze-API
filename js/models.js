@@ -227,7 +227,7 @@ class User {
      const action = state !== "addfavore"? "DELETE":'POST';
       try {
         await axios({
-          url: `${BASE_URL}/users/${this.username}/favorites/${story.storyId}/sss`,
+          url: `${BASE_URL}/users/${this.username}/favorites/${story.storyId}`,
           method: action,
           data:{token: this.loginToken},
         });
