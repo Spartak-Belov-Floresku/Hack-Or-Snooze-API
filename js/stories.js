@@ -83,7 +83,8 @@ async function submitNewStory(e){
   const author = $("#author").val();
   const title = $("#title").val();
   const url = $("#url").val();
-
+  e.target.reset();
+  
   await storyList.addStory(currentUser, {title, author, url});
   storyList = await StoryList.getStories();
 
