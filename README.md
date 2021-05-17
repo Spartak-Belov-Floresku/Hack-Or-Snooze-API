@@ -8,3 +8,6 @@ To run this game you can do it by running your local server or simply by opening
 
 
 https://spartak-belov-floresku.github.io/Hack-Or-Snooze-API/
+
+
+<img src="https://raw.githubusercontent.com/Spartak-Belov-Floresku/Hack-Or-Snooze-API/main/css/ui.png">
